@@ -1,7 +1,7 @@
 # NOTES — Wiyao TAKOUGNADI
 ## Time spent
 
-- Total: **~3 hours**
+- Total: **~3 hours** : 1H for coding + 1H for deployment + 1H for documentation
 
 The application follows a streamlined, containerized RAG pattern engineered for enterprise reliability, high performance, and clean UI transparency.
 
