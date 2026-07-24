@@ -20,16 +20,16 @@ Designed for high performance, zero-latency vector retrieval, and enterprise rel
 ## Local Installation & Run
 
 - Clone the repository and set up a virtual environment : 
-  python -m venv venv
-  source venv/bin/activate
+  * python -m venv venv
+  * source venv/bin/activate
 - Install dependencies:
   pip install -r requirements.txt
 - Create a .env file at the root of the project and update with GOOGLE_API_KEY=your_actual_api_key_here
 - Run the Streamlit application:
   streamlit run app.py
 - Docker Local Testing :
-   docker build -t ai-partners-rag .
-   docker run -p 8501:8501 -e GOOGLE_API_KEY=your_actual_api_key_here ai-partners-rag
+   * docker build -t ai-partners-rag .
+   * docker run -p 8501:8501 -e GOOGLE_API_KEY=your_actual_api_key_here ai-partners-rag
 
 
 
