@@ -1,4 +1,5 @@
 # AI Partners RAG Knowledge Bot 🤖
+Link : https://rag-interview-wiyao-984449208354.europe-west9.run.app/
 
 A production-ready, containerized **Advanced RAG (Retrieval-Augmented Generation)** application built with **Streamlit**, **LangChain**, and Google's state-of-the-art **Gemini 3.6-flash** and **Gemini Embedding 2** models.
 
@@ -20,13 +21,13 @@ Designed for high performance, zero-latency vector retrieval, and enterprise rel
 ## Local Installation & Run
 
 - Clone the repository and set up a virtual environment : 
-  * python -m venv venv
-  * source venv/bin/activate
+   * python -m venv venv
+   * source venv/bin/activate
 - Install dependencies:
-  pip install -r requirements.txt
+   * pip install -r requirements.txt
 - Create a .env file at the root of the project and update with GOOGLE_API_KEY=your_actual_api_key_here
 - Run the Streamlit application:
-  streamlit run app.py
+   * streamlit run app.py
 - Docker Local Testing :
    * docker build -t ai-partners-rag .
    * docker run -p 8501:8501 -e GOOGLE_API_KEY=your_actual_api_key_here ai-partners-rag
