@@ -49,4 +49,4 @@ The application follows a streamlined, containerized RAG pattern engineered for 
 
 ## Known limitations
 - Simple model (gemini-3.6-flash)
-- chunk : the chunk may not cover all the context of sentences for example...
+- free api, token limitation :)
