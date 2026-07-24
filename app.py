@@ -50,7 +50,7 @@ for msg in st.session_state.messages:
         # Réaffichage de la source principale dans l'historique si elle existe
         if "main_source" in msg and msg["main_source"]:
             with st.expander("📚 Voir la source principale"):
-                st.write(msg["main_source"][:300] + "...")
+                st.write(msg["main_source"][:(500] + "...")
 
 if user_input := st.chat_input("Ex: What engagement models does AI Partners offer?"):
     st.session_state.messages.append({"role": "user", "content": user_input})
@@ -101,7 +101,7 @@ Context:
             # On ne récupère que le premier chunk (la source la plus proche mathématiquement)
             main_source_text = retrieved_docs[0].page_content
             with st.expander("📚 Voir la source principale"):
-                st.write(main_source_text[:300] + "...")
+                st.write(main_source_text[:500] + "...")
         else:
             st.caption("ℹ️ *Aucune source pertinente n'a été utilisée pour cette réponse.*")
 
