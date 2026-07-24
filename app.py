@@ -50,7 +50,7 @@ for msg in st.session_state.messages:
         # Réaffichage de la source principale dans l'historique si elle existe
         if "main_source" in msg and msg["main_source"]:
             with st.expander("📚 Voir la source principale"):
-                st.write(msg["main_source"][:(500] + "...")
+                st.write(msg["main_source"][:500] + "...")
 
 if user_input := st.chat_input("Ex: What engagement models does AI Partners offer?"):
     st.session_state.messages.append({"role": "user", "content": user_input})
