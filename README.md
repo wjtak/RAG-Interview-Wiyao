@@ -14,20 +14,7 @@ Designed for high performance, zero-latency vector retrieval, and enterprise rel
 - **Robust Streaming Parser:** Dynamically parses streaming API output to handle both string and structured multi-modal list payloads seamlessly.
 - **Smart UI Gating & Source Transparency:** Queries the top 3 contextual chunks to feed the LLM, but intelligently displays **only the primary source (Chunk 1)** inside a conditional expander. If a fallback is triggered, source rendering is automatically suppressed to prevent user confusion.
 
----
 
-## Project Structure
-
-```text
-ai-partners-rag/
-├── app.py                      # Main Streamlit application
-├── data/
-│   └── ai-partners-knowledge-base.md  # Internal knowledge base
-├── Dockerfile                  # Container definition for Cloud Run
-├── requirements.txt            # Python dependencies
-├── NOTES.md                    # System design notes & GCP deployment guide
-└── README.md                   # Project overview & quickstart
-```
 ---
 
 ## Local Installation & Run
